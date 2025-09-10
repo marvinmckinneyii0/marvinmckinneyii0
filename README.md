@@ -11,6 +11,40 @@
 
 ---
 
+## 📂 AI Agents
+- [agent-hub](https://github.com/marvinmckinneyii0/agent-hub)
+- [savvy-sales-agent](https://github.com/marvinmckinneyii0/savvy-sales-agent)
+
+## 📂 AI Engineering
+- [agentic-dashboard](https://github.com/marvinmckinneyii0/agentic-dashboard)
+- [ai-strategy-app](https://github.com/marvinmckinneyii0/ai-strategy-app)
+
+## 📂 Data Analysis
+- [analytics-viz](https://github.com/marvinmckinneyii0/analytics-viz)
+- [etl-builder](https://github.com/marvinmckinneyii0/etl-builder)
+
+## 📂 MCP
+- [mcp-n8n](https://github.com/marvinmckinneyii0/mcp-n8n)
+- [mcp-server-starter](https://github.com/marvinmckinneyii0/mcp-server-starter)
+
+## 📂 n8n
+- [n8n-workflows](https://github.com/marvinmckinneyii0/n8n-workflows) <!-- placeholder, replace with your repo name -->
+
+## 📂 Python Projects
+- [ai-cleaner](https://github.com/marvinmckinneyii0/ai-cleaner)
+- [data-normalizer](https://github.com/marvinmckinneyii0/data-normalizer)
+
+## 📂 RAP (Reliable AI Pipelines)
+- [rap-agent-core](https://github.com/marvinmckinneyii0/rap-agent-core)
+- [rap-self-healing](https://github.com/marvinmckinneyii0/rap-self-healing)
+
+## 📂 SaaS
+- [savvybrain](https://github.com/marvinmckinneyii0/savvybrain)
+- [savvyclean](https://github.com/marvinmckinneyii0/savvycleanse)
+
+
+---
+
 ## 📊 Live GitHub Metrics
 
 <!-- Metrics (generated daily by GitHub Action) -->
