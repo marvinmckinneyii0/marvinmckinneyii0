@@ -3,6 +3,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Marvin%20McKinney-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marvin-mckinneyii/)
 [![Website](https://img.shields.io/badge/Website-Savvy%20Analytics-gold)](https://www.savvyanalytics.info)
+[![Resume](https://img.shields.io/badge/CV-Marvin%20McKinney-red?logo=adobeacrobatreader&logoColor=white)](./Marvin%20McKinney%20Resume%202025.pdf)
 
 ### 🔧 What I Do
 - AI Strategy & Consulting (CrewAI, LangChain, n8n, MCP)
