@@ -1,5 +1,5 @@
 # Hi, I'm Marvin 👋
-🚀 AI Strategist | Founder of Savvy Analytics | Building SaaS & Agentic AI Systems
+🚀 AI Strategist | Principal Consultant at Savvy Analytics | Building SaaS & Agentic AI Systems
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Marvin%20McKinney-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marvin-mckinneyii/)
 [![Website](https://img.shields.io/badge/Website-Savvy%20Analytics-gold)](https://www.savvyanalytics.info)
