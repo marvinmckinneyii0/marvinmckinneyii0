@@ -30,7 +30,7 @@
 
 ---
 
-## 📂 AI Agents
+## 📂 AI Agents & RAG
 - [agent-hub](https://github.com/marvinmckinneyii0/agent-hub)
 - [savvy-sales-agent](https://github.com/marvinmckinneyii0/savvy-sales-agent)
 
