@@ -50,7 +50,7 @@
 - [mcp-server-starter](https://github.com/marvinmckinneyii0/mcp-server-starter)
 
 ## 📂 n8n
-- [n8n-workflows](https://github.com/marvinmckinneyii0/n8n-workflows) <!-- placeholder, replace with your repo name -->
+- [n8n-RevOps Worfkflow](https://github.com/marvinmckinneyii0/n8n_travefy_churn_prediction)!-- placeholder, replace with your repo name -->
 
 ## 📂 Python Projects
 - [ai-cleaner](https://github.com/marvinmckinneyii0/ai-cleaner)
