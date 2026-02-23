@@ -34,35 +34,29 @@
 - [document analyzer](https://github.com/marvinmckinneyii0/llm-document-analysis)
 
 ## 📂 AI Engineering
-- [agentic-dashboard](https://github.com/marvinmckinneyii0/agentic-dashboard)
-- [ai-strategy-app](https://github.com/marvinmckinneyii0/ai-strategy-app)
+- [coming soon](https://github.com/marvinmckinneyii0/agentic-dashboard)
+
 
 ## 📂 Data Analysis
-- [analytics-viz](https://github.com/marvinmckinneyii0/analytics-viz)
-- [etl-builder](https://github.com/marvinmckinneyii0/etl-builder)
+- [etl-builder coming soon](https://github.com/marvinmckinneyii0/etl-builder)
 
 ## 📂 Data Engineering
-- [analytics-viz] - [analytics-viz](https://github.com/marvinmckinneyii0/analytics-viz)
-- [etl-builder]
+- [etl-builder] -[analytics-viz](https://github.com/marvinmckinneyii0/etl-builder)
 
 ## 📂 MCP
-- [mcp-n8n](https://github.com/marvinmckinneyii0/mcp-n8n)
-- [mcp-server-starter](https://github.com/marvinmckinneyii0/mcp-server-starter)
+- [mcp-n8n coming soon](https://github.com/marvinmckinneyii0/mcp-n8n)
 
 ## 📂 n8n
 - [n8n-RevOps Worfkflow](https://github.com/marvinmckinneyii0/n8n_travefy_churn_prediction)
 
 ## 📂 Python Projects
-- [ai-cleaner](https://github.com/marvinmckinneyii0/ai-cleaner)
-- [data-normalizer](https://github.com/marvinmckinneyii0/data-normalizer)
+- [ai-cleaner coming soon](https://github.com/marvinmckinneyii0/ai-cleaner)
 
-## 📂 RAP (Reliable AI Pipelines)
-- [rap-agent-core](https://github.com/marvinmckinneyii0/rap-agent-core)
+## 📂 Agentic-AI (AI Pipelines)
 - [rap-self-healing](https://github.com/marvinmckinneyii0/rap-self-healing)
 
 ## 📂 SaaS
-- [savvybrain](https://github.com/marvinmckinneyii0/savvybrain)
-- [savvyclean](https://github.com/marvinmckinneyii0/savvycleanse)
+)
 
 
 ---
