@@ -43,6 +43,10 @@
 - [analytics-viz](https://github.com/marvinmckinneyii0/analytics-viz)
 - [etl-builder](https://github.com/marvinmckinneyii0/etl-builder)
 
+## 📂 Data Engineering
+- [analytics-viz]
+- [etl-builder]
+
 ## 📂 MCP
 - [mcp-n8n](https://github.com/marvinmckinneyii0/mcp-n8n)
 - [mcp-server-starter](https://github.com/marvinmckinneyii0/mcp-server-starter)
