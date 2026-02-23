@@ -38,22 +38,22 @@
 
 
 ## 📂 Data Analysis
-- [etl-builder coming soon](https://github.com/marvinmckinneyii0/etl-builder)
+- [coming soon](https://github.com/marvinmckinneyii0/etl-builder)
 
 ## 📂 Data Engineering
-- [etl-builder] -[analytics-viz](https://github.com/marvinmckinneyii0/etl-builder)
+- [coming soon] -[analytics-viz](https://github.com/marvinmckinneyii0/etl-builder)
 
 ## 📂 MCP
-- [mcp-n8n coming soon](https://github.com/marvinmckinneyii0/mcp-n8n)
+- [coming soon](https://github.com/marvinmckinneyii0/mcp-n8n)
 
 ## 📂 n8n
 - [n8n-RevOps Worfkflow](https://github.com/marvinmckinneyii0/n8n_travefy_churn_prediction)
 
 ## 📂 Python Projects
-- [ai-cleaner coming soon](https://github.com/marvinmckinneyii0/ai-cleaner)
+- [coming soon](https://github.com/marvinmckinneyii0/ai-cleaner)
 
 ## 📂 Agentic-AI (AI Pipelines)
-- [rap-self-healing](https://github.com/marvinmckinneyii0/rap-self-healing)
+- [coming soon](https://github.com/marvinmckinneyii0/rap-self-healing)
 
 ## 📂 SaaS
 )
