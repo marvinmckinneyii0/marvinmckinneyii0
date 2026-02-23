@@ -55,6 +55,7 @@
 ## 📂 Python Projects
 - [coming soon](https://github.com/marvinmckinneyii0/ai-cleaner)
 - [marvin_python_project](https://github.com/marvinmckinneyii0/Marvin-Python-Projects)
+- [mutal_fund_analysis](https://github.com/marvinmckinneyii0/mutual-fund-analysis)
 
 ## 📂 SaaS
 - [coming soon](https://github.com/marvinmckinneyii0/saas_projects)
