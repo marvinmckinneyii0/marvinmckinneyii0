@@ -37,6 +37,7 @@
 - [document analyzer](https://github.com/marvinmckinneyii0/llm-document-analysis)
 
 ## 📂 AI Engineering
+- [AI Engineering Hub](https://github.com/marvinmckinneyii0/ai_engineering_hub) 
 - [coming soon](https://github.com/marvinmckinneyii0/agentic-dashboard)
 
 
