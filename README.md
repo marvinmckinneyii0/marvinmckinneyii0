@@ -44,7 +44,7 @@
 - [etl-builder](https://github.com/marvinmckinneyii0/etl-builder)
 
 ## 📂 Data Engineering
-- [analytics-viz]
+- [analytics-viz] - [analytics-viz](https://github.com/marvinmckinneyii0/analytics-viz)
 - [etl-builder]
 
 ## 📂 MCP
