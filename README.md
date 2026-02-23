@@ -31,8 +31,6 @@
 ---
 
 ## 📂 AI Agents & RAG
-- [agent-hub](https://github.com/marvinmckinneyii0/agent-hub)
-- [savvy-sales-agent](https://github.com/marvinmckinneyii0/savvy-sales-agent)
 - [document analyzer](https://github.com/marvinmckinneyii0/llm-document-analysis)
 
 ## 📂 AI Engineering
