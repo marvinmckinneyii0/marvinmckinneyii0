@@ -41,7 +41,7 @@
 - [coming soon](https://github.com/marvinmckinneyii0/etl-builder)
 
 ## 📂 Data Engineering
-- [coming soon] -[analytics-viz](https://github.com/marvinmckinneyii0/etl-builder)
+- [coming soon](https://github.com/marvinmckinneyii0/etl-builder)
 
 ## 📂 MCP
 - [coming soon](https://github.com/marvinmckinneyii0/mcp-n8n)
