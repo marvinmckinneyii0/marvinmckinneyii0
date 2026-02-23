@@ -30,6 +30,9 @@
 
 ---
 
+## 📂 Agentic-AI (AI Pipelines)
+- [coming soon](https://github.com/marvinmckinneyii0/rap-self-healing)
+
 ## 📂 AI Agents & RAG
 - [document analyzer](https://github.com/marvinmckinneyii0/llm-document-analysis)
 
@@ -51,9 +54,6 @@
 
 ## 📂 Python Projects
 - [coming soon](https://github.com/marvinmckinneyii0/ai-cleaner)
-
-## 📂 Agentic-AI (AI Pipelines)
-- [coming soon](https://github.com/marvinmckinneyii0/rap-self-healing)
 
 ## 📂 SaaS
 - [coming soon](https://github.com/marvinmckinneyii0/saas_projects)
