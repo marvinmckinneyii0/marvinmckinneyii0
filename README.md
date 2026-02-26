@@ -51,8 +51,8 @@
 - [coming soon](https://github.com/marvinmckinneyii0/mcp-n8n)
 
 ## 📂 n8n
-- [n8n-RevOps Worfkflow](https://github.com/marvinmckinneyii0/n8n_travefy_churn_prediction)
-- [n8n-RevOps Workflow](https://github.com/marvinmckinneyii0/RevOps_Attio_Engagement)
+- [Travefy_Hubspot_n8n-RevOps Worfkflow](https://github.com/marvinmckinneyii0/n8n_travefy_churn_prediction)
+- [Attio_n8n-RevOps Workflow](https://github.com/marvinmckinneyii0/RevOps_Attio_Engagement)
 
 ## 📂 Python Projects
 - [coming soon](https://github.com/marvinmckinneyii0/ai-cleaner)
