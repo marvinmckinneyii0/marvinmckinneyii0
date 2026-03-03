@@ -8,13 +8,16 @@
 ### 🔧 What I Do
 - AI Strategy & Consulting (CrewAI, LangChain, n8n, MCP)
 - SaaS Apps (SavvyClean, SavvyBrain, AI Audit App)
-- Data Engineering (ETL/ELT Pipelines, Analytics Dashboards)
-
+- Data Engineering (ETL/ELT Pipelines, Analytics Dashboards, SQL)
+- Cloud Infrastructure & Big Data (Azure, Databricks)
 
 ---
 
 ## 🛠 Languages & Tools
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white)
@@ -22,11 +25,6 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232a?style=flat&logo=react&logoColor=61DAFB)
-
-### 🔧 What I Do
-- AI Strategy & Consulting (CrewAI, LangChain, n8n, MCP)
-- SaaS Apps (SavvyClean, SavvyBrain, AI Audit App)
-- Data Engineering (ETL/ELT Pipelines, Analytics Dashboards)
 
 ---
 
@@ -36,7 +34,6 @@
 ## 📂 AI Engineering
 - [AI Engineering Hub](https://github.com/marvinmckinneyii0/ai_engineering_hub) 
 - [coming soon](https://github.com/marvinmckinneyii0/agentic-dashboard)
-
 
 ## 📂 Data Analysis
 - [coming soon](https://github.com/marvinmckinneyii0/etl-builder)
@@ -61,24 +58,17 @@
 - [coming soon](https://github.com/marvinmckinneyii0/saas_projects)
 - [ai_audit_generator](https://github.com/marvinmckinneyii0/ai-audit-generator)
 
-
-
-
 ---
 
 ## 📊 Live GitHub Metrics
-
-<!-- Metrics (generated daily by GitHub Action) -->
 <p align="left">
   <img src="./metrics.svg" alt="GitHub Metrics" width="100%">
 </p>
 
-<!-- Activity graph (auto-updating image service) -->
 <p align="left">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=marvinmckinneyii0&theme=github-dark&radius=8&area=true" alt="Activity Graph" width="100%">
 </p>
 
-<!-- Readme Stats (auto-updating) -->
 <p align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=marvinmckinneyii0&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="GitHub stats" height="165">
   <img src="https://streak-stats.demolab.com?user=marvinmckinneyii0&theme=radical&hide_border=false" alt="GitHub Streak" height="165">
