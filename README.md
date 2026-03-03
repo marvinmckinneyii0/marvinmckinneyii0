@@ -43,6 +43,7 @@
 
 ## 📂 Data Analysis
 - [coming soon](https://github.com/marvinmckinneyii0/etl-builder)
+- [DataBricks: National-Emissions-Registry-NER-Dashboard](https://github.com/marvinmckinneyii0/National-Emissions-Registry-NER-Dashboard)
 
 ## 📂 Data Engineering
 - [coming soon](https://github.com/marvinmckinneyii0/etl-builder)
