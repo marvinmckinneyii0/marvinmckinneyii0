@@ -8,7 +8,7 @@
 ### 🔧 What I Do
 - AI Strategy & Consulting (CrewAI, LangChain, n8n, MCP)
 - SaaS Apps (SavvyCort-X, SavvyFlowIQ)
-- Data Engineering (ETL/ELT Pipelines, Analytics Dashboards, SQL)
+- Languages Python, SQL
 
 
 ---
