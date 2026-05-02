@@ -7,7 +7,7 @@
 
 ### 🔧 What I Do
 - AI Strategy & Consulting (CrewAI, LangChain, n8n, MCP)
-- SaaS Apps (SavvyClean, SavvyBrain, AI Audit App)
+- SaaS Apps (SavvyCort-X, SavvyFlowIQ)
 - Data Engineering (ETL/ELT Pipelines, Analytics Dashboards, SQL)
 - Cloud Infrastructure & Big Data (Azure, Databricks)
 
