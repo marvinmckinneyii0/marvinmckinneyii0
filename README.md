@@ -9,7 +9,7 @@
 - AI Strategy & Consulting (CrewAI, LangChain, n8n, MCP)
 - SaaS Apps (SavvyCort-X, SavvyFlowIQ)
 - Data Engineering (ETL/ELT Pipelines, Analytics Dashboards, SQL)
-- Cloud Infrastructure & Big Data (Azure, Databricks)
+
 
 ---
 
