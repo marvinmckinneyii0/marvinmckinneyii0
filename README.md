@@ -7,7 +7,7 @@
 
 ### 🔧 What I Do
 - AI Strategy & Consulting: AI Transformation consulting with thoughtful and responsible implementation for SMEs
-- SaaS Apps: SavvyCort-X | SavvyFlowIQ
+- SaaS Apps: SavvyCortex | SavvyFlowIQ
 - Languages: Python | SQL
 
 
