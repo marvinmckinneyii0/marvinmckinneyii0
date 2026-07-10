@@ -6,7 +6,7 @@
 [![Resume](https://img.shields.io/badge/CV-Marvin%20McKinney-red?logo=adobeacrobatreader&logoColor=white)](./Marvin%20McKinney%20Resume%202025.pdf)
 
 ### 🔧 What I Do
-- AI Strategy & Consulting: AI Transformation consulting with thoughtful and responsible implementation for SMEs
+- AI Strategy & Consulting: AI Transformation with thoughtful and responsible implementation for SMEs
 - SaaS Apps: SavvyCortex | SavvyFlowIQ
 - Languages: Python | SQL
 
