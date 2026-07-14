@@ -90,6 +90,3 @@ AI Strategist | Principal Consultant at Savvy Analytics | Building SaaS & Agenti
 ---
 
 
-README is auto-updated by workflows in .github/workflows.
--->
-
