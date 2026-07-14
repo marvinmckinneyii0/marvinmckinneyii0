@@ -13,7 +13,7 @@
       <stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
     </linearGradient>
 
-    <!-- animated gold->navy->muted-gold sweep for ASCII -->
+    <!-- animated gold→navy→muted-gold sweep for ASCII -->
     <linearGradient id="asciiGrad" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#E7AC18">
         <animate attributeName="stop-color" values="#E7AC18;#8F6B0F;#8B8B8B;#E7AC18" dur="7s" repeatCount="indefinite"/>
@@ -120,45 +120,46 @@
         <g filter="url(#softGlow)">
           <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="6s" repeatCount="indefinite"/>
           <text x="234" y="150" text-anchor="middle" font-family="'Courier New',monospace" font-size="10.5" fill="url(#asciiGrad)" letter-spacing="0.5" xml:space="preserve" font-weight="bold">
-            <tspan x="234" dy="0" xml:space="preserve">       ..  ....:::-=====-..---:::-+++**+=-::--<animate attributeName="opacity" values="0;1" dur="0.22s" begin="0.20s" fill="freeze"/></tspan>
-            <tspan x="234" dy="11" xml:space="preserve">.  ... ...::::-+*%%%%%%%*-:==:...::-+++-:::--=<animate attributeName="opacity" values="0;1" dur="0.22s" begin="0.28s" fill="freeze"/></tspan>
-            <tspan x="234" dy="11" xml:space="preserve"> .::::.......+%@@@@@@@@@@%#+-::..  .==-.:::---<animate attributeName="opacity" values="0;1" dur="0.22s" begin="0.35s" fill="freeze"/></tspan>
-            <tspan x="234" dy="11" xml:space="preserve"> .....:. ..:#@@@@@@@@@@@@@@%*--:.      .   .::<animate attributeName="opacity" values="0;1" dur="0.22s" begin="0.42s" fill="freeze"/></tspan>
-            <tspan x="234" dy="11" xml:space="preserve">    .::.  .#@%%@@@@@@@@@@@@@%-:...           .<animate attributeName="opacity" values="0;1" dur="0.22s" begin="0.50s" fill="freeze"/></tspan>
-            <tspan x="234" dy="11" xml:space="preserve">  ...:... :%##***#%#*#%@@@@%%=...           .:<animate attributeName="opacity" values="0;1" dur="0.22s" begin="0.57s" fill="freeze"/></tspan>
-            <tspan x="234" dy="11" xml:space="preserve">:  .::... -*====+%%====+#%%%#-..  ..          <animate attributeName="opacity" values="0;1" dur="0.22s" begin="0.65s" fill="freeze"/></tspan>
-            <tspan x="234" dy="11" xml:space="preserve">.::....   =%%##%%@@%#*###%##*=                <animate attributeName="opacity" values="0;1" dur="0.22s" begin="0.73s" fill="freeze"/></tspan>
-            <tspan x="234" dy="11" xml:space="preserve">==-:..    =***#*+***%**%%####-                <animate attributeName="opacity" values="0;1" dur="0.22s" begin="0.80s" fill="freeze"/></tspan>
-            <tspan x="234" dy="11" xml:space="preserve">+=--.  ...:--=+*++*##+:-++*%#.        ...     <animate attributeName="opacity" values="0;1" dur="0.22s" begin="0.88s" fill="freeze"/></tspan>
-            <tspan x="234" dy="11" xml:space="preserve">=+-. .:.  .-=*+#%@%%*+==++*#.        .....    <animate attributeName="opacity" values="0;1" dur="0.22s" begin="0.95s" fill="freeze"/></tspan>
-            <tspan x="234" dy="11" xml:space="preserve">.--. :.    .:*#+++*%@#=:-=*#            .---. <animate attributeName="opacity" values="0;1" dur="0.22s" begin="1.02s" fill="freeze"/></tspan>
-            <tspan x="234" dy="11" xml:space="preserve">:=-. ..      :+***##*-  .+%#:=            :-::<animate attributeName="opacity" values="0;1" dur="0.22s" begin="1.10s" fill="freeze"/></tspan>
-            <tspan x="234" dy="11" xml:space="preserve"> -=:.:.      .....     -+#*==++.           ...<animate attributeName="opacity" values="0;1" dur="0.22s" begin="1.18s" fill="freeze"/></tspan>
-            <tspan x="234" dy="11" xml:space="preserve"> ::-:-....    :... ..:=*+:.::-++=-:.        ::<animate attributeName="opacity" values="0;1" dur="0.22s" begin="1.25s" fill="freeze"/></tspan>
-            <tspan x="234" dy="11" xml:space="preserve">. .....::::.  ::-----=-. .:---:.=+++=:...     <animate attributeName="opacity" values="0;1" dur="0.22s" begin="1.32s" fill="freeze"/></tspan>
-            <tspan x="234" dy="11" xml:space="preserve">. ...:--=-.   .---=+=:   .::-:  .:-=+*=:. .:..<animate attributeName="opacity" values="0;1" dur="0.22s" begin="1.40s" fill="freeze"/></tspan>
-            <tspan x="234" dy="11" xml:space="preserve">..::---::      -+=-.     ..::   ..::-=+**=:   <animate attributeName="opacity" values="0;1" dur="0.22s" begin="1.47s" fill="freeze"/></tspan>
-            <tspan x="234" dy="11" xml:space="preserve">---:.           .           .  ...::---=+++=: <animate attributeName="opacity" values="0;1" dur="0.22s" begin="1.55s" fill="freeze"/></tspan>
-            <tspan x="234" dy="11" xml:space="preserve">**:    ..                        ...::------=-<animate attributeName="opacity" values="0;1" dur="0.22s" begin="1.62s" fill="freeze"/></tspan>
+            <tspan x="234" dy="0" opacity="0" xml:space="preserve">       ..  ....:::-=====-..---:::-+++**+=-::--<animate attributeName="opacity" values="0;1" dur="0.22s" begin="0.20s" fill="freeze"/></tspan>
+            <tspan x="234" dy="11" opacity="0" xml:space="preserve">.  ... ...::::-+*%%%%%%%*-:==:...::-+++-:::--=<animate attributeName="opacity" values="0;1" dur="0.22s" begin="0.28s" fill="freeze"/></tspan>
+            <tspan x="234" dy="11" opacity="0" xml:space="preserve"> .::::.......+%@@@@@@@@@@%#+-::..  .==-.:::---<animate attributeName="opacity" values="0;1" dur="0.22s" begin="0.35s" fill="freeze"/></tspan>
+            <tspan x="234" dy="11" opacity="0" xml:space="preserve"> .....:. ..:#@@@@@@@@@@@@@@%*--:.      .   .::<animate attributeName="opacity" values="0;1" dur="0.22s" begin="0.42s" fill="freeze"/></tspan>
+            <tspan x="234" dy="11" opacity="0" xml:space="preserve">    .::.  .#@%%@@@@@@@@@@@@@%-:...           .<animate attributeName="opacity" values="0;1" dur="0.22s" begin="0.50s" fill="freeze"/></tspan>
+            <tspan x="234" dy="11" opacity="0" xml:space="preserve">  ...:... :%##***#%#*#%@@@@%%=...           .:<animate attributeName="opacity" values="0;1" dur="0.22s" begin="0.57s" fill="freeze"/></tspan>
+            <tspan x="234" dy="11" opacity="0" xml:space="preserve">:  .::... -*====+%%====+#%%%#-..  ..          <animate attributeName="opacity" values="0;1" dur="0.22s" begin="0.65s" fill="freeze"/></tspan>
+            <tspan x="234" dy="11" opacity="0" xml:space="preserve">.::....   =%%##%%@@%#*###%##*=                <animate attributeName="opacity" values="0;1" dur="0.22s" begin="0.73s" fill="freeze"/></tspan>
+            <tspan x="234" dy="11" opacity="0" xml:space="preserve">==-:..    =***#*+***%**%%####-                <animate attributeName="opacity" values="0;1" dur="0.22s" begin="0.80s" fill="freeze"/></tspan>
+            <tspan x="234" dy="11" opacity="0" xml:space="preserve">+=--.  ...:--=+*++*##+:-++*%#.        ...     <animate attributeName="opacity" values="0;1" dur="0.22s" begin="0.88s" fill="freeze"/></tspan>
+            <tspan x="234" dy="11" opacity="0" xml:space="preserve">=+-. .:.  .-=*+#%@%%*+==++*#.        .....    <animate attributeName="opacity" values="0;1" dur="0.22s" begin="0.95s" fill="freeze"/></tspan>
+            <tspan x="234" dy="11" opacity="0" xml:space="preserve">.--. :.    .:*#+++*%@#=:-=*#            .---. <animate attributeName="opacity" values="0;1" dur="0.22s" begin="1.02s" fill="freeze"/></tspan>
+            <tspan x="234" dy="11" opacity="0" xml:space="preserve">:=-. ..      :+***##*-  .+%#:=            :-::<animate attributeName="opacity" values="0;1" dur="0.22s" begin="1.10s" fill="freeze"/></tspan>
+            <tspan x="234" dy="11" opacity="0" xml:space="preserve"> -=:.:.      .....     -+#*==++.           ...<animate attributeName="opacity" values="0;1" dur="0.22s" begin="1.18s" fill="freeze"/></tspan>
+            <tspan x="234" dy="11" opacity="0" xml:space="preserve"> ::-:-....    :... ..:=*+:.::-++=-:.        ::<animate attributeName="opacity" values="0;1" dur="0.22s" begin="1.25s" fill="freeze"/></tspan>
+            <tspan x="234" dy="11" opacity="0" xml:space="preserve">. .....::::.  ::-----=-. .:---:.=+++=:...     <animate attributeName="opacity" values="0;1" dur="0.22s" begin="1.32s" fill="freeze"/></tspan>
+            <tspan x="234" dy="11" opacity="0" xml:space="preserve">. ...:--=-.   .---=+=:   .::-:  .:-=+*=:. .:..<animate attributeName="opacity" values="0;1" dur="0.22s" begin="1.40s" fill="freeze"/></tspan>
+            <tspan x="234" dy="11" opacity="0" xml:space="preserve">..::---::      -+=-.     ..::   ..::-=+**=:   <animate attributeName="opacity" values="0;1" dur="0.22s" begin="1.47s" fill="freeze"/></tspan>
+            <tspan x="234" dy="11" opacity="0" xml:space="preserve">---:.           .           .  ...::---=+++=: <animate attributeName="opacity" values="0;1" dur="0.22s" begin="1.55s" fill="freeze"/></tspan>
+            <tspan x="234" dy="11" opacity="0" xml:space="preserve">**:    ..                        ...::------=-<animate attributeName="opacity" values="0;1" dur="0.22s" begin="1.62s" fill="freeze"/></tspan>
           </text>
           <!-- blinking cursor after reveal -->
           <rect x="360" y="376" width="8" height="13" fill="#E7AC18" opacity="0">
+            <animate attributeName="opacity" values="0;0" dur="1.75s" begin="0s" fill="freeze"/>
             <animate attributeName="opacity" values="1;0;1" dur="1s" begin="1.75s" repeatCount="indefinite"/>
           </rect>
         </g>
 
         <!-- data glyphs under portrait -->
-        <text x="234" y="410" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#8B8B8B" letter-spacing="3" opacity="0.7">
+        <text x="234" y="410" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#8B8B8B" letter-spacing="3" opacity="0">
           01000100 01010001 01000001
           <animate attributeName="opacity" values="0;0.7" dur="0.6s" begin="2.2s" fill="freeze"/>
         </text>
-        <text x="234" y="428" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#8B8B8B" letter-spacing="3" opacity="0.9">
+        <text x="234" y="428" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#8B8B8B" letter-spacing="3" opacity="0">
           AI · STRATEGY · SYSTEMS
           <animate attributeName="opacity" values="0;0.9" dur="0.6s" begin="2.4s" fill="freeze"/>
         </text>
 
         <!-- terminal status line -->
-        <g opacity="1"><animate attributeName="opacity" values="0;1" dur="0.6s" begin="2.6s" fill="freeze"/>
+        <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.6s" begin="2.6s" fill="freeze"/>
           <circle cx="60" cy="552" r="4" fill="#E7AC18"><animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/></circle>
           <text x="76" y="556" font-family="'Courier New',monospace" font-size="11" fill="#94A3B8" letter-spacing="1">pipeline: online</text>
         </g>
@@ -181,26 +182,28 @@
       </g>
 
       <!-- greeting -->
-      <g opacity="1"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.3s" fill="freeze"/>
+      <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.3s" fill="freeze"/>
         <text x="504" y="132" font-family="'Courier New',monospace" font-size="16" fill="#E7AC18" letter-spacing="1">&gt; hello_world()</text>
       </g>
-      <text x="504" y="176" font-size="20" fill="#94A3B8" letter-spacing="3" font-weight="bold" opacity="1">
+      <text x="504" y="176" font-size="20" fill="#94A3B8" letter-spacing="3" font-weight="bold" opacity="0">
         HI, I'M
         <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.6s" fill="freeze"/>
       </text>
-      <text x="504" y="220" font-size="42" fill="url(#nameGrad)" letter-spacing="2" font-weight="bold" opacity="1">
+      <text x="504" y="220" font-size="42" fill="url(#nameGrad)" letter-spacing="2" font-weight="bold" opacity="0">
         MARVIN McKINNEY
         <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.8s" fill="freeze"/>
       </text>
 
       <!-- animated typing role line -->
-      <g opacity="1"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.1s" fill="freeze"/>
+      <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.1s" fill="freeze"/>
         <text x="504" y="258" font-family="'Courier New',monospace" font-size="18" fill="#E7AC18" letter-spacing="1">
-          <tspan>▍ </tspan>
+          <tspan>▍ </tspan><tspan id="role" fill="#F8FAFC">
+            <animate attributeName="opacity" values="1;1" dur="1s"/>
+          </tspan>
         </text>
-        <!-- cycling roles via sequential opacity; first is default-visible for static renderers -->
+        <!-- cycling roles via sequential opacity -->
         <text x="524" y="258" font-family="'Courier New',monospace" font-size="18" fill="#F8FAFC" letter-spacing="1">
-          <tspan opacity="1">AI Strategist<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.28;0.34;0.94;1" dur="12s" begin="1.2s" repeatCount="indefinite"/></tspan>
+          <tspan opacity="0">AI Strategist<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.06;0.28;0.34" dur="12s" begin="1.2s" repeatCount="indefinite"/></tspan>
         </text>
         <text x="524" y="258" font-family="'Courier New',monospace" font-size="18" fill="#F8FAFC" letter-spacing="1">
           <tspan opacity="0">Principal Consultant, Savvy Analytics<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.34;0.40;0.61;0.67" dur="12s" begin="1.2s" repeatCount="indefinite"/></tspan>
@@ -215,28 +218,28 @@
       </g>
 
       <!-- divider -->
-      <line x1="504" y1="280" x2="1120" y2="280" stroke="rgba(255,255,255,0.08)" opacity="1">
+      <line x1="504" y1="280" x2="1120" y2="280" stroke="rgba(255,255,255,0.08)" opacity="0">
         <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.4s" fill="freeze"/>
       </line>
 
       <!-- info rows -->
       <g font-family="'Courier New',monospace" font-size="14" letter-spacing="0.5">
-        <g opacity="1"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.5s" fill="freeze"/>
+        <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.5s" fill="freeze"/>
           <text x="504" y="312" fill="#8B8B8B">location  </text><text x="620" y="312" fill="#F8FAFC">Lisbon, Portugal</text>
         </g>
-        <g opacity="1"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.65s" fill="freeze"/>
+        <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.65s" fill="freeze"/>
           <text x="504" y="336" fill="#8B8B8B">focus     </text><text x="620" y="336" fill="#F8FAFC">SAINT · SavvyCortex · SavvyFlowIQ</text>
         </g>
-        <g opacity="1"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.8s" fill="freeze"/>
+        <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.8s" fill="freeze"/>
           <text x="504" y="360" fill="#8B8B8B">work      </text><text x="620" y="360" fill="#F8FAFC">AI transformation · responsible AI for SMEs</text>
         </g>
-        <g opacity="1"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.95s" fill="freeze"/>
+        <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.95s" fill="freeze"/>
           <text x="504" y="384" fill="#8B8B8B">portfolio </text><text x="620" y="384" fill="#E7AC18">savvyanalytics.info</text>
         </g>
       </g>
 
       <!-- skills header -->
-      <text x="504" y="424" font-size="12" fill="#8B8B8B" letter-spacing="3" font-weight="bold" opacity="1">
+      <text x="504" y="424" font-size="12" fill="#8B8B8B" letter-spacing="3" font-weight="bold" opacity="0">
         STACK
         <animate attributeName="opacity" values="0;1" dur="0.4s" begin="2.1s" fill="freeze"/>
       </text>
@@ -244,60 +247,56 @@
       <!-- skill pills -->
       <g font-family="'Courier New',monospace" font-size="12.5" letter-spacing="0.5">
         <!-- row 1 -->
-        <g opacity="1" transform="translate(504,438)"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.2s" fill="freeze"/>
+        <g opacity="0" transform="translate(504,438)"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.2s" fill="freeze"/>
           <rect width="72" height="28" rx="14" fill="rgba(231,172,24,0.10)" stroke="#E7AC18" stroke-opacity="0.55" filter="url(#pillGlow)"><animate attributeName="stroke-opacity" values="0.55;0.9;0.55" dur="4s" begin="0.0s" repeatCount="indefinite"/></rect>
           <text x="36" y="19" text-anchor="middle" fill="#F8FAFC">Python</text>
         </g>
-        <g opacity="1" transform="translate(584,438)"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.3s" fill="freeze"/>
+        <g opacity="0" transform="translate(584,438)"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.3s" fill="freeze"/>
           <rect width="56" height="28" rx="14" fill="rgba(231,172,24,0.10)" stroke="#E7AC18" stroke-opacity="0.55" filter="url(#pillGlow)"><animate attributeName="stroke-opacity" values="0.55;0.9;0.55" dur="4s" begin="0.3s" repeatCount="indefinite"/></rect>
           <text x="28" y="19" text-anchor="middle" fill="#F8FAFC">SQL</text>
         </g>
-        <g opacity="1" transform="translate(648,438)"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.4s" fill="freeze"/>
+        <g opacity="0" transform="translate(648,438)"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.4s" fill="freeze"/>
           <rect width="100" height="28" rx="14" fill="rgba(231,172,24,0.10)" stroke="#E7AC18" stroke-opacity="0.55" filter="url(#pillGlow)"><animate attributeName="stroke-opacity" values="0.55;0.9;0.55" dur="4s" begin="0.6s" repeatCount="indefinite"/></rect>
           <text x="50" y="19" text-anchor="middle" fill="#F8FAFC">Databricks</text>
         </g>
-        <g opacity="1" transform="translate(756,438)"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.5s" fill="freeze"/>
+        <g opacity="0" transform="translate(756,438)"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.5s" fill="freeze"/>
           <rect width="68" height="28" rx="14" fill="rgba(231,172,24,0.10)" stroke="#E7AC18" stroke-opacity="0.55" filter="url(#pillGlow)"><animate attributeName="stroke-opacity" values="0.55;0.9;0.55" dur="4s" begin="0.9s" repeatCount="indefinite"/></rect>
           <text x="34" y="19" text-anchor="middle" fill="#F8FAFC">Azure</text>
         </g>
-        <g opacity="1" transform="translate(832,438)"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.6s" fill="freeze"/>
+        <g opacity="0" transform="translate(832,438)"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.6s" fill="freeze"/>
           <rect width="76" height="28" rx="14" fill="rgba(231,172,24,0.10)" stroke="#E7AC18" stroke-opacity="0.55" filter="url(#pillGlow)"><animate attributeName="stroke-opacity" values="0.55;0.9;0.55" dur="4s" begin="1.2s" repeatCount="indefinite"/></rect>
           <text x="38" y="19" text-anchor="middle" fill="#F8FAFC">Docker</text>
         </g>
         <!-- row 2 -->
-        <g opacity="1" transform="translate(504,476)"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.7s" fill="freeze"/>
+        <g opacity="0" transform="translate(504,476)"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.7s" fill="freeze"/>
           <rect width="82" height="28" rx="14" fill="rgba(231,172,24,0.10)" stroke="#E7AC18" stroke-opacity="0.55" filter="url(#pillGlow)"><animate attributeName="stroke-opacity" values="0.55;0.9;0.55" dur="4s" begin="1.5s" repeatCount="indefinite"/></rect>
           <text x="41" y="19" text-anchor="middle" fill="#F8FAFC">FastAPI</text>
         </g>
-        <g opacity="1" transform="translate(594,476)"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.8s" fill="freeze"/>
+        <g opacity="0" transform="translate(594,476)"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.8s" fill="freeze"/>
           <rect width="68" height="28" rx="14" fill="rgba(231,172,24,0.10)" stroke="#E7AC18" stroke-opacity="0.55" filter="url(#pillGlow)"><animate attributeName="stroke-opacity" values="0.55;0.9;0.55" dur="4s" begin="1.8s" repeatCount="indefinite"/></rect>
           <text x="34" y="19" text-anchor="middle" fill="#F8FAFC">React</text>
         </g>
-        <g opacity="1" transform="translate(670,476)"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.9s" fill="freeze"/>
+        <g opacity="0" transform="translate(670,476)"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.9s" fill="freeze"/>
           <rect width="100" height="28" rx="14" fill="rgba(231,172,24,0.10)" stroke="#E7AC18" stroke-opacity="0.55" filter="url(#pillGlow)"><animate attributeName="stroke-opacity" values="0.55;0.9;0.55" dur="4s" begin="2.1s" repeatCount="indefinite"/></rect>
           <text x="50" y="19" text-anchor="middle" fill="#F8FAFC">TypeScript</text>
         </g>
-        <g opacity="1" transform="translate(778,476)"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="3.0s" fill="freeze"/>
+        <g opacity="0" transform="translate(778,476)"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="3.0s" fill="freeze"/>
           <rect width="80" height="28" rx="14" fill="rgba(231,172,24,0.10)" stroke="#E7AC18" stroke-opacity="0.55" filter="url(#pillGlow)"><animate attributeName="stroke-opacity" values="0.55;0.9;0.55" dur="4s" begin="2.4s" repeatCount="indefinite"/></rect>
           <text x="40" y="19" text-anchor="middle" fill="#F8FAFC">Node.js</text>
         </g>
-        <g opacity="1" transform="translate(866,476)"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="3.1s" fill="freeze"/>
+        <g opacity="0" transform="translate(866,476)"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="3.1s" fill="freeze"/>
           <rect width="56" height="28" rx="14" fill="rgba(231,172,24,0.10)" stroke="#E7AC18" stroke-opacity="0.55" filter="url(#pillGlow)"><animate attributeName="stroke-opacity" values="0.55;0.9;0.55" dur="4s" begin="2.7s" repeatCount="indefinite"/></rect>
           <text x="28" y="19" text-anchor="middle" fill="#F8FAFC">Vite</text>
-        </g>
-        <g opacity="1" transform="translate(946,476)"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="3.15s" fill="freeze"/>
-          <rect width="106" height="28" rx="14" fill="rgba(231,172,24,0.10)" stroke="#E7AC18" stroke-opacity="0.55" filter="url(#pillGlow)"><animate attributeName="stroke-opacity" values="0.55;0.9;0.55" dur="4s" begin="3.0s" repeatCount="indefinite"/></rect>
-          <text x="53" y="19" text-anchor="middle" fill="#F8FAFC">JavaScript</text>
         </g>
       </g>
 
       <!-- divider -->
-      <line x1="504" y1="528" x2="1120" y2="528" stroke="rgba(255,255,255,0.08)" opacity="1">
+      <line x1="504" y1="528" x2="1120" y2="528" stroke="rgba(255,255,255,0.08)" opacity="0">
         <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.2s" fill="freeze"/>
       </line>
 
       <!-- social icons row -->
-      <g opacity="1" transform="translate(504,548)"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.3s" fill="freeze"/>
+      <g opacity="0" transform="translate(504,548)"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.3s" fill="freeze"/>
         <!-- GitHub -->
         <g transform="translate(0,0)">
           <circle cx="16" cy="16" r="15" fill="rgba(231,172,24,0.08)" stroke="#E7AC18" stroke-opacity="0.5"/>
