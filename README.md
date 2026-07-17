@@ -7,7 +7,7 @@ AI Strategist | Principal Consultant at Savvy Analytics | Building SaaS & Agenti
 [![Resume](https://img.shields.io/badge/CV-Marvin%20McKinney-red?logo=adobeacrobatreader&logoColor=white)](./Marvin%20McKinney%20Resume%202025.pdf)
 
 ### 🔧 What I Do
-- AI Strategy & Consulting: AI Transformation with thoughtful and responsible implementation for SMEs
+- AI Strategy | Consulting | Development: AI Transformation with thoughtful and responsible implementation for SMEs
 - SaaS Apps: SAINT | SavvyCortex | SavvyFlowIQ
 - Languages: Python | SQL
 
