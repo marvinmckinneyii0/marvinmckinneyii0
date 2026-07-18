@@ -7,8 +7,8 @@ AI Strategist | Principal Consultant at Savvy Analytics | Building SaaS & Agenti
 [![Resume](https://img.shields.io/badge/CV-Marvin%20McKinney-red?logo=adobeacrobatreader&logoColor=white)](./Marvin%20McKinney%20Resume%202025.pdf)
 
 ### 🔧 What I Do
-- AI Strategy | Consulting | Development: AI Transformation with thoughtful and responsible implementation for SMEs
-- SaaS Apps: SAINT | SavvyCortex | SavvyFlowIQ
+- AI strategy, consulting, and development — thoughtful, responsible AI transformation for SMEs
+- SaaS products: SavvyCortex | FlowIQ
 - Languages: Python | SQL
 
 
@@ -30,34 +30,34 @@ AI Strategist | Principal Consultant at Savvy Analytics | Building SaaS & Agenti
 ---
 
 ## 📂 AI Agents & RAG
-- [document analyzer](https://github.com/marvinmckinneyii0/llm-document-analysis)
+- [Document Analyzer](https://github.com/marvinmckinneyii0/llm-document-analysis)
 
 ## 📂 AI Engineering
-- [AI Engineering Hub](https://github.com/marvinmckinneyii0/ai_engineering_hub) 
-- [coming soon](https://github.com/marvinmckinneyii0/agentic-dashboard)
+- [AI Engineering Hub](https://github.com/marvinmckinneyii0/ai_engineering_hub)
+- [Coming soon](https://github.com/marvinmckinneyii0/agentic-dashboard)
 
 ## 📂 Data Analysis
-- [coming soon](https://github.com/marvinmckinneyii0/etl-builder)
-- [DataBricks: National-Emissions-Registry-NER-Dashboard](https://github.com/marvinmckinneyii0/National-Emissions-Registry-NER-Dashboard)
+- [Coming soon](https://github.com/marvinmckinneyii0/etl-builder)
+- [Databricks: National Emissions Registry (NER) Dashboard](https://github.com/marvinmckinneyii0/National-Emissions-Registry-NER-Dashboard)
 
 ## 📂 Data Engineering
-- [ETL Pandas Transformatios](https://github.com/marvinmckinneyii0/RTX-Docs)
+- [ETL Pandas Transformations](https://github.com/marvinmckinneyii0/RTX-Docs)
 
 ## 📂 MCP
-- [coming soon](https://github.com/marvinmckinneyii0/mcp-n8n)
+- [Coming soon](https://github.com/marvinmckinneyii0/mcp-n8n)
 
 ## 📂 n8n
-- [Travefy_Hubspot_n8n-RevOps Worfkflow](https://github.com/marvinmckinneyii0/n8n_travefy_churn_prediction)
-- [Attio_n8n-RevOps Workflow](https://github.com/marvinmckinneyii0/RevOps_Attio_Engagement)
+- [Travefy → HubSpot n8n RevOps Workflow](https://github.com/marvinmckinneyii0/n8n_travefy_churn_prediction)
+- [Attio n8n RevOps Workflow](https://github.com/marvinmckinneyii0/RevOps_Attio_Engagement)
 
 ## 📂 Python Projects
-- [coming soon](https://github.com/marvinmckinneyii0/ai-cleaner)
-- [marvin_python_project](https://github.com/marvinmckinneyii0/Marvin-Python-Projects)
-- [mutal_fund_analysis](https://github.com/marvinmckinneyii0/mutual-fund-analysis)
+- [Coming soon](https://github.com/marvinmckinneyii0/ai-cleaner)
+- [Marvin Python Projects](https://github.com/marvinmckinneyii0/Marvin-Python-Projects)
+- [Mutual Fund Analysis](https://github.com/marvinmckinneyii0/mutual-fund-analysis)
 
 ## 📂 SaaS
-- [coming soon](https://github.com/marvinmckinneyii0/saas_projects)
-- [ai_audit_generator](https://github.com/marvinmckinneyii0/ai-audit-generator)
+- [Coming soon](https://github.com/marvinmckinneyii0/saas_projects)
+- [AI Audit Generator](https://github.com/marvinmckinneyii0/ai-audit-generator)
 
 ## 📂 Web
 - [Interview Prep Project](https://github.com/marvinmckinneyii0/interview_prep_webpage)
@@ -86,7 +86,3 @@ AI Strategist | Principal Consultant at Savvy Analytics | Building SaaS & Agenti
 <!--START_SECTION:activity-->
 <!-- The latest pull requests, issues, reviews, and comments will be inserted here by a GitHub Action -->
 <!--END_SECTION:activity-->
-
----
-
-
