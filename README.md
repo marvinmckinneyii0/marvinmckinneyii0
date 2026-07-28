@@ -164,7 +164,7 @@ Technologies are most useful when described by the function they perform inside 
 <sub>CONSISTENT PUBLIC OUTPUT · LONG-HORIZON PRACTICE</sub>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=marvinmckinneyii0&theme=github-dark-blue&hide_border=true" alt="Marvin McKinney's GitHub contribution streak" height="165">
+  <img src="https://streak-stats.demolab.com/?user=marvinmckinneyii0&theme=github-dark-blue&hide_border=true&v=20260728" alt="Marvin McKinney's GitHub contribution streak" height="165">
 </p>
 
 ---
