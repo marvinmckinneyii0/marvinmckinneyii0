@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="./assets/interface/semantic-interface.svg" alt="Marvin McKinney — AI systems architect and machine interlocutor. A calm computational interface maps strategy, architecture, and execution." width="100%">
+  <a href="https://marvinmckinneyii0.github.io/marvinmckinneyii0/">
+    <img src="./assets/interface/semantic-interface.svg" alt="Marvin McKinney — AI systems architect and machine interlocutor. Open the interactive interface mapping strategy, architecture, and execution." width="100%">
+  </a>
 </p>
 
 # Marvin McKinney
@@ -7,6 +9,8 @@
 **AI systems architect · Machine interlocutor**
 
 <p align="center">
+  <a href="https://marvinmckinneyii0.github.io/marvinmckinneyii0/">Enter Interactive Interface</a>
+  &nbsp;·&nbsp;
   <a href="https://www.savvyanalytics.info">Savvy Analytics</a>
   &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/marvin-mckinneyii/">LinkedIn</a>
