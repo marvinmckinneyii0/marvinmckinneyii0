@@ -1,0 +1,65 @@
+name: Check portfolio
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+      - '.github/workflows/check-site.yml'
+  pull_request:
+    paths:
+      - 'docs/**'
+      - '.github/workflows/check-site.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out the portfolio
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+
+      - name: Check required site files
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f docs/index.html
+          test -f docs/styles.css
+          test -f docs/app.js
+          test -f docs/brief.js
+          test -f docs/.nojekyll
+          test -d docs/assets
+
+      - name: Check JavaScript syntax
+        run: |
+          node --check docs/app.js
+          node --check docs/brief.js
+
+      - name: Check project guide paths
+        shell: bash
+        run: |
+          node <<'JS'
+          const assert = require('node:assert/strict');
+          const { createBrief } = require('./docs/brief.js');
+          let checked = 0;
+          for (const priority of ['direction', 'workflow', 'data', 'product']) {
+            for (const context of ['home', 'business', 'team']) {
+              for (const stage of ['explore', 'defined', 'scale']) {
+                const brief = createBrief({ priority, context, stage });
+                assert.equal(brief.steps.length, 3);
+                const email = new URL(brief.email);
+                assert.equal(email.pathname, 'marvinmckinneyii0@gmail.com');
+                assert(email.searchParams.get('body').includes(brief.text));
+                checked += 1;
+              }
+            }
+          }
+          assert.throws(() => createBrief({}), /Complete all three/);
+          console.log(`${checked} project guide paths passed.`);
+          JS

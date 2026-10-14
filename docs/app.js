@@ -1,274 +1,71 @@
-const nodeContent = {
-  intent: {
-    index: "01",
-    classification: "Strategic layer",
-    title: "Intent",
-    summary:
-      "Clarify what the organization is trying to change, protect, or make possible before selecting a technical response.",
-    function: "Resolve ambiguous goals into testable system objectives.",
-    output: "A decision frame with explicit human ownership.",
-  },
-  context: {
-    index: "02",
-    classification: "Interpretive layer",
-    title: "Context",
-    summary:
-      "Establish the conditions, constraints, language, and operating reality surrounding the system.",
-    function: "Make organizational conditions legible.",
-    output: "A shared frame for design and judgment.",
-  },
-  memory: {
-    index: "03",
-    classification: "Continuity layer",
-    title: "Memory",
-    summary:
-      "Give intelligent systems durable access to the knowledge, history, and state required for coherent work.",
-    function: "Preserve context across tasks and decisions.",
-    output: "Structured organizational memory with traceable sources.",
-  },
-  policy: {
-    index: "04",
-    classification: "Governance layer",
-    title: "Policy",
-    summary:
-      "Define the permissions, escalation paths, and non-negotiable boundaries that shape intelligent action.",
-    function: "Keep authority and accountability explicit.",
-    output: "Legible rules for autonomy, review, and intervention.",
-  },
-  structure: {
-    index: "05",
-    classification: "Architecture layer",
-    title: "Structure",
-    summary:
-      "Translate intent, context, memory, and policy into an operating architecture whose parts have meaningful responsibilities.",
-    function: "Coordinate agents, data, tools, and people.",
-    output: "A system that can be operated, observed, and changed.",
-  },
-  action: {
-    index: "06",
-    classification: "Execution layer",
-    title: "Action",
-    summary:
-      "Convert intelligence into deliberate work while preserving review points and a defensible record of what occurred.",
-    function: "Operationalize reasoning without surrendering judgment.",
-    output: "Accountable execution with observable consequences.",
-  },
+'use strict';
+const projects={
+  savvy:{name:'Savvy Analytics',category:'CONSULTING & SYSTEMS',status:'Active practice',summary:'Practical AI transformation for smaller businesses.',purpose:'Connect AI and data work to a business problem people can actually recognize: an unclear decision, a slow process, or a missing capability.',focus:['AI strategy, readiness reviews, and delivery roadmaps.','Analytics, data engineering, and workflow automation.','AI-enabled websites and bounded customer experiences for HVAC and home services.'],state:'Savvy Analytics is my consulting practice. The current small-business focus is HVAC and home services, alongside AI transformation and custom software work for larger teams.'},
+  saint:{name:'SavvyClean / SAINT',category:'DATA QUALITY PRODUCT',status:'In development',summary:'A clearer foundation for reporting, operations, and AI.',purpose:'Make data quality problems visible and give people a way to review proposed cleaning and validation steps before relying on the result.',focus:['Data validation and understandable cleaning behavior.','Reviewable changes and clear human checkpoints.','Data readiness, observability, and governance as product design goals.'],state:'SavvyClean and SAINT refer to the same product. It is under active development. This portfolio describes the direction of the work; it is not a live product demo or a claim of general availability.'},
+  cortex:{name:'SavvyCortex',category:'AI BUSINESS OS',status:'In development',summary:'Exploring how AI can coordinate business operations.',purpose:'Bring business objectives, knowledge, and workflows into a more coherent operating system for smaller organizations.',focus:['Coordination across business workflows and AI agents.','Clear permissions, evaluation, and human approval.','An architecture that can grow beyond an internal prototype.'],state:'SavvyCortex is a separate product initiative from SavvyClean / SAINT. It remains in development. Private business administration and internal AIOS infrastructure are separate from this portfolio.'},
+  warfox:{name:'WarFox',category:'WORLD BUILDING & VISUAL DESIGN',status:'Ongoing creative work',summary:'An original 22nd-century universe about humanity and power.',purpose:'Explore identity, augmentation, corporate power, and the consequences of technological change through characters and a consistent speculative world.',focus:['Character development and canon continuity.','Grounded 22nd-century technology and minimalist visual design.','Writing and visual storytelling that keep human choices at the center.'],state:'WarFox is my ongoing creative project. The visual here is original architectural artwork for this portfolio, rather than a released scene or a finished product.'}
 };
-
-const connectionPairs = [
-  ["intent", "context"],
-  ["context", "memory"],
-  ["intent", "policy"],
-  ["intent", "structure"],
-  ["context", "structure"],
-  ["memory", "action"],
-  ["policy", "structure"],
-  ["structure", "action"],
-];
-
-const plot = document.querySelector("#field-plot");
-const canvas = document.querySelector("#relation-field");
-const context = canvas.getContext("2d");
-const nodes = [...document.querySelectorAll(".semantic-node")];
-const fieldState = document.querySelector("#field-state");
-const detailIndex = document.querySelector("#detail-index");
-const detailClassification = document.querySelector("#detail-classification");
-const detailTitle = document.querySelector("#detail-title");
-const detailSummary = document.querySelector("#detail-summary");
-const detailFunction = document.querySelector("#detail-function");
-const detailOutput = document.querySelector("#detail-output");
-const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-
-let activeKey = "context";
-let animationFrame = 0;
-let animationStart = performance.now();
-let pointerX = 0.5;
-let pointerY = 0.5;
-let pointerTargetX = 0.5;
-let pointerTargetY = 0.5;
-let isVisible = !document.hidden;
-
-const nodeState = new Map(
-  nodes.map((node, index) => [
-    node.dataset.node,
-    {
-      element: node,
-      x: Number(node.dataset.x),
-      y: Number(node.dataset.y),
-      phase: index * 0.9,
-      offsetX: 0,
-      offsetY: 0,
-    },
-  ]),
-);
-
-function activateNode(key, { announce = true } = {}) {
-  const content = nodeContent[key];
-
-  if (!content) {
-    return;
-  }
-
-  activeKey = key;
-
-  nodes.forEach((node) => {
-    node.setAttribute("aria-pressed", String(node.dataset.node === key));
-  });
-
-  detailIndex.textContent = content.index;
-  detailClassification.textContent = content.classification;
-  detailTitle.textContent = content.title;
-  detailSummary.textContent = content.summary;
-  detailFunction.textContent = content.function;
-  detailOutput.textContent = content.output;
-
-  if (announce) {
-    fieldState.textContent = `${content.title} selected`;
-  }
-
-  drawField(performance.now());
+const dialog=document.getElementById('project-dialog');
+document.querySelectorAll('[data-project]').forEach(button=>button.addEventListener('click',()=>{
+  const project=projects[button.dataset.project];
+  document.getElementById('dialog-title').textContent=project.name;
+  document.getElementById('dialog-category').textContent=project.category;
+  document.getElementById('dialog-status').textContent=project.status;
+  document.getElementById('dialog-summary').textContent=project.summary;
+  document.getElementById('dialog-purpose').textContent=project.purpose;
+  document.getElementById('dialog-state').textContent=project.state;
+  document.getElementById('dialog-focus').replaceChildren(...project.focus.map(text=>{const li=document.createElement('li');li.textContent=text;return li;}));
+  document.getElementById('dialog-email').href='mailto:marvinmckinneyii0@gmail.com?subject='+encodeURIComponent('Let’s talk about '+project.name);
+  document.body.classList.add('dialog-open');
+  dialog.showModal();
+}));
+document.getElementById('dialog-close').addEventListener('click',()=>dialog.close());
+dialog.addEventListener('close',()=>document.body.classList.remove('dialog-open'));
+dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close();}});
+document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{
+  document.querySelectorAll('[data-filter]').forEach(b=>{b.classList.toggle('active',b===button);b.setAttribute('aria-pressed',String(b===button));});
+  let count=0;
+  document.querySelectorAll('[data-category]').forEach(card=>{card.hidden=button.dataset.filter!=='all'&&card.dataset.category!==button.dataset.filter;if(!card.hidden)count++;});
+  document.getElementById('filter-status').textContent=count+' project'+(count===1?'':'s')+' shown.';
+}));
+const form=document.getElementById('brief-form'),steps=[...document.querySelectorAll('.brief-step')],next=document.getElementById('brief-next'),back=document.getElementById('brief-back'),hint=document.getElementById('brief-hint'),result=document.getElementById('brief-result');
+const names=['priority','context','stage'];
+let currentStep=0,currentBrief=null;
+form.hidden=false;
+function selected(name){return form.querySelector('input[name="'+name+'"]:checked')?.value;}
+function updateStep(focus){
+  steps.forEach((step,i)=>step.hidden=i!==currentStep);
+  next.disabled=!selected(names[currentStep]);
+  next.innerHTML=currentStep===2?'See my starting point <span aria-hidden="true">↗</span>':'Continue <span aria-hidden="true">→</span>';
+  back.hidden=currentStep===0;
+  hint.hidden=currentStep!==0;
+  hint.textContent=next.disabled?'Select one to continue.':'Ready when you are.';
+  document.getElementById('step-label').textContent='QUESTION 0'+(currentStep+1)+' / 03';
+  document.querySelectorAll('.progress-bars i').forEach((bar,i)=>bar.classList.toggle('filled',i<=currentStep));
+  if(focus){const legend=steps[currentStep].querySelector('legend');legend.tabIndex=-1;legend.focus();}
 }
-
-function resizeCanvas() {
-  const width = plot.clientWidth;
-  const height = plot.clientHeight;
-  const ratio = Math.min(window.devicePixelRatio || 1, 2);
-
-  if (canvas.width !== Math.round(width * ratio) || canvas.height !== Math.round(height * ratio)) {
-    canvas.width = Math.round(width * ratio);
-    canvas.height = Math.round(height * ratio);
-    canvas.style.width = `${width}px`;
-    canvas.style.height = `${height}px`;
-    context.setTransform(ratio, 0, 0, ratio, 0, 0);
-  }
-}
-
-function updateNodePositions(time) {
-  const motionScale = reducedMotion.matches ? 0 : 1;
-  const pointerOffsetX = (pointerX - 0.5) * 8 * motionScale;
-  const pointerOffsetY = (pointerY - 0.5) * 6 * motionScale;
-
-  nodeState.forEach((state, key) => {
-    const driftX = Math.sin(time / 5200 + state.phase) * 2.2 * motionScale;
-    const driftY = Math.cos(time / 6100 + state.phase) * 1.8 * motionScale;
-    const depth = 0.55 + state.phase * 0.08;
-
-    state.offsetX = driftX + pointerOffsetX * depth;
-    state.offsetY = driftY + pointerOffsetY * depth;
-    state.element.style.transform = `translate(calc(-50% + ${state.offsetX}px), calc(-50% + ${state.offsetY}px))`;
-
-    if (key === activeKey && reducedMotion.matches) {
-      state.element.style.transform = "translate(-50%, -50%)";
-    }
-  });
-}
-
-function pointFor(key) {
-  const state = nodeState.get(key);
-
-  return {
-    x: state.x * plot.clientWidth + state.offsetX,
-    y: state.y * plot.clientHeight + state.offsetY,
-  };
-}
-
-function drawConnection(fromKey, toKey) {
-  const from = pointFor(fromKey);
-  const to = pointFor(toKey);
-  const isActive = fromKey === activeKey || toKey === activeKey;
-  const controlX = (from.x + to.x) / 2;
-  const controlY = Math.min(from.y, to.y) - Math.abs(to.x - from.x) * 0.12;
-
-  context.beginPath();
-  context.moveTo(from.x, from.y);
-  context.quadraticCurveTo(controlX, controlY, to.x, to.y);
-  context.strokeStyle = isActive ? "rgba(198, 164, 106, 0.68)" : "rgba(121, 147, 163, 0.30)";
-  context.lineWidth = isActive ? 1.25 : 0.8;
-  context.stroke();
-}
-
-function drawField(time) {
-  resizeCanvas();
-  updateNodePositions(time);
-  context.clearRect(0, 0, plot.clientWidth, plot.clientHeight);
-  connectionPairs.forEach(([from, to]) => drawConnection(from, to));
-}
-
-function animationLoop(time) {
-  pointerX += (pointerTargetX - pointerX) * 0.04;
-  pointerY += (pointerTargetY - pointerY) * 0.04;
-  drawField(time - animationStart);
-
-  if (isVisible && !reducedMotion.matches) {
-    animationFrame = requestAnimationFrame(animationLoop);
-  }
-}
-
-function startAnimation() {
-  cancelAnimationFrame(animationFrame);
-  animationStart = performance.now();
-  drawField(0);
-
-  if (isVisible && !reducedMotion.matches) {
-    animationFrame = requestAnimationFrame(animationLoop);
-  }
-}
-
-plot.addEventListener("pointermove", (event) => {
-  const bounds = plot.getBoundingClientRect();
-  pointerTargetX = Math.min(1, Math.max(0, (event.clientX - bounds.left) / bounds.width));
-  pointerTargetY = Math.min(1, Math.max(0, (event.clientY - bounds.top) / bounds.height));
+form.addEventListener('change',()=>updateStep(false));
+back.addEventListener('click',()=>{if(currentStep>0){currentStep--;updateStep(true);}});
+form.addEventListener('submit',event=>{
+  event.preventDefault();if(!selected(names[currentStep]))return;
+  if(currentStep<2){currentStep++;updateStep(true);return;}
+  currentBrief=StudioBrief.createBrief(Object.fromEntries(names.map(name=>[name,selected(name)])));
+  document.getElementById('result-title').textContent=currentBrief.title;
+  document.getElementById('result-description').textContent=currentBrief.description;
+  document.getElementById('result-context').textContent=currentBrief.context+' · '+currentBrief.stage+'. '+currentBrief.contextNote;
+  document.getElementById('result-steps').replaceChildren(...currentBrief.steps.map(text=>{const li=document.createElement('li');li.textContent=text;return li;}));
+  document.getElementById('brief-email').href=currentBrief.email;
+  form.hidden=true;result.hidden=false;result.focus();
 });
-
-plot.addEventListener("pointerleave", () => {
-  pointerTargetX = 0.5;
-  pointerTargetY = 0.5;
+document.getElementById('brief-reset').addEventListener('click',()=>{
+  form.reset();currentStep=0;currentBrief=null;form.hidden=false;result.hidden=true;document.getElementById('copy-brief').textContent='Copy brief';document.getElementById('copy-status').textContent='';updateStep(true);
 });
-
-nodes.forEach((node, index) => {
-  const key = node.dataset.node;
-
-  node.addEventListener("click", () => activateNode(key));
-  node.addEventListener("focus", () => activateNode(key));
-  node.addEventListener("pointerenter", () => activateNode(key, { announce: false }));
-
-  node.addEventListener("keydown", (event) => {
-    const forward = event.key === "ArrowRight" || event.key === "ArrowDown";
-    const backward = event.key === "ArrowLeft" || event.key === "ArrowUp";
-
-    if (!forward && !backward && event.key !== "Home" && event.key !== "End") {
-      return;
-    }
-
-    event.preventDefault();
-    let nextIndex = index;
-
-    if (forward) {
-      nextIndex = (index + 1) % nodes.length;
-    } else if (backward) {
-      nextIndex = (index - 1 + nodes.length) % nodes.length;
-    } else if (event.key === "Home") {
-      nextIndex = 0;
-    } else {
-      nextIndex = nodes.length - 1;
-    }
-
-    nodes[nextIndex].focus();
-  });
+document.getElementById('copy-brief').addEventListener('click',async()=>{
+  if(!currentBrief)return;
+  try{
+    if(navigator.clipboard&&window.isSecureContext)await navigator.clipboard.writeText(currentBrief.text);
+    else{const field=document.createElement('textarea');field.value=currentBrief.text;field.setAttribute('aria-label','Project brief');field.style.position='fixed';field.style.left='-9999px';document.body.append(field);field.select();const ok=document.execCommand('copy');field.remove();if(!ok)throw new Error('Copy unavailable');}
+    document.getElementById('copy-brief').textContent='Copied ✓';document.getElementById('copy-status').textContent='Project brief copied to your clipboard.';
+  }catch{document.getElementById('copy-status').textContent='Clipboard access is unavailable. Use Email this brief to open the full text in your email app.';document.getElementById('copy-brief').textContent='Use email instead';}
 });
-
-document.addEventListener("visibilitychange", () => {
-  isVisible = !document.hidden;
-  startAnimation();
-});
-
-window.addEventListener("resize", () => drawField(performance.now() - animationStart));
-
-if (typeof reducedMotion.addEventListener === "function") {
-  reducedMotion.addEventListener("change", startAnimation);
-} else {
-  reducedMotion.addListener(startAnimation);
-}
-
-activateNode(activeKey, { announce: false });
-startAnimation();
+updateStep(false);
