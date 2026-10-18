@@ -15,6 +15,15 @@ document.querySelectorAll('[data-project]').forEach(button=>button.addEventListe
   document.getElementById('dialog-purpose').textContent=project.purpose;
   document.getElementById('dialog-state').textContent=project.state;
   document.getElementById('dialog-focus').replaceChildren(...project.focus.map(text=>{const li=document.createElement('li');li.textContent=text;return li;}));
+  const websiteLink=document.getElementById('dialog-website');
+  const websiteUrl=button.dataset.project==='savvy'?window.PortfolioLinks?.savvyAnalytics:null;
+  if(websiteUrl&&new URL(websiteUrl).protocol==='https:'){
+    websiteLink.href=websiteUrl;
+    websiteLink.hidden=false;
+  }else{
+    websiteLink.hidden=true;
+    websiteLink.removeAttribute('href');
+  }
   document.getElementById('dialog-email').href='mailto:marvinmckinneyii0@gmail.com?subject='+encodeURIComponent('Let’s talk about '+project.name);
   document.body.classList.add('dialog-open');
   dialog.showModal();
