@@ -33,6 +33,7 @@ jobs:
           test -f docs/styles.css
           test -f docs/app.js
           test -f docs/brief.js
+          test -f docs/site-links.js
           test -f docs/.nojekyll
           test -d docs/assets
 
@@ -40,6 +41,7 @@ jobs:
         run: |
           node --check docs/app.js
           node --check docs/brief.js
+          node --check docs/site-links.js
 
       - name: Check project guide paths
         shell: bash
@@ -62,4 +64,26 @@ jobs:
           }
           assert.throws(() => createBrief({}), /Complete all three/);
           console.log(`${checked} project guide paths passed.`);
+          JS
+
+      - name: Check Savvy Analytics portfolio link
+        shell: bash
+        run: |
+          node <<'JS'
+          const assert = require('node:assert/strict');
+          const fs = require('node:fs');
+          const vm = require('node:vm');
+          const context = { window: {} };
+          vm.runInNewContext(fs.readFileSync('docs/site-links.js', 'utf8'), context);
+          const url = new URL(context.window.PortfolioLinks.savvyAnalytics);
+          assert.equal(url.protocol, 'https:');
+          assert(url.hostname !== 'localhost');
+          const html = fs.readFileSync('docs/index.html', 'utf8');
+          const js = fs.readFileSync('docs/app.js', 'utf8');
+          const readme = fs.readFileSync('README.md', 'utf8');
+          assert(html.includes('src="site-links.js" defer'));
+          assert(html.includes('id="dialog-website"'));
+          assert(js.includes('window.PortfolioLinks?.savvyAnalytics'));
+          assert(readme.includes(url.origin), 'The README Savvy Analytics link must match the public domain');
+          console.log('Portfolio Savvy Analytics URL and dialog link wiring verified');
           JS
