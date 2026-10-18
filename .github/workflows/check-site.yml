@@ -38,6 +38,7 @@ jobs:
 
       - name: Check JavaScript syntax
         run: |
+          node --check docs/planet.js
           node --check docs/app.js
           node --check docs/brief.js
 

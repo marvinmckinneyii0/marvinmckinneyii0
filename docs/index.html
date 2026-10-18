@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="styles.css">
   <script src="brief.js" defer></script>
   <script src="app.js" defer></script>
+  <script src="planet.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -31,9 +32,11 @@
         <div class="hero-actions"><a class="button button-dark" href="#start">Find your starting point <span aria-hidden="true">↗</span></a><a class="text-link" href="#work">Explore the work <span aria-hidden="true">↓</span></a></div>
         <p class="location"><span aria-hidden="true">◉</span> Based in Lisbon. Working globally.</p>
       </div>
-      <div class="hero-art" aria-hidden="true">
+      <div class="hero-art">
         <div class="art-caption"><span>THE SYSTEMS STUDIO</span><span>FIG. 01</span></div>
         <img src="assets/systems.svg" alt="" width="600" height="600" fetchpriority="high">
+        <div id="planet-scene" aria-hidden="true"></div>
+        <button id="planet-motion" type="button" aria-label="Toggle planetary animation" aria-pressed="false" hidden>Play motion</button>
         <div class="art-tag tag-data"><span class="tiny-index">01</span> Data</div><div class="art-tag tag-ai"><span class="tiny-index">02</span> Intelligence</div><div class="art-tag tag-human"><span class="tiny-index">03</span> Human judgment</div>
         <div class="art-foot"><span>COMPLEXITY, WITH A PURPOSE.</span><span>✳</span></div>
       </div>
